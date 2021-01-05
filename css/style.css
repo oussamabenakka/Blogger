@@ -1,0 +1,110 @@
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+body
+{
+     background: url(../images/notebook.png);
+     color: #000000;
+     font-family: 'Lato', sans-serif;
+     line-height: 1.7; /* line-height is unit-less */
+     font-size: 100%;
+}
+#container
+{
+     width: 1000px;
+     margin: 0 auto;
+}
+/*----------------------------------------------------------------------------- 
+03=HEADER  
+-----------------------------------------------------------------------------*/
+#header
+{
+     padding-top: 50px;
+     padding-bottom: 10px;
+}
+h1{
+     font-size: 70px; 
+}
+#header h2{
+     margin-top: -70px;
+}
+/*----------------------------------------------------------------------------- 
+04=MAIN  
+-----------------------------------------------------------------------------*/
+#main
+{
+     background: white;
+     width: 650px;
+     float: left;
+     padding: 10px 50px;
+}
+hr
+{    
+     padding: 0px;
+}
+
+/*----------------------------------------------------------------------------- 
+05=SIDEBAR 
+-----------------------------------------------------------------------------*/
+#sidebar
+{
+     width: 340px;
+     background: white;
+     margin-left: 10px;
+     padding: 15px;
+     float: left;
+     
+}
+#sidebar img
+{
+     width: 150px;
+     height: 150px;
+     border-radius: 100%;
+}
+#sidebar a
+{
+     text-decoration: none;
+     color: red;
+}
+.small-side
+{
+     position: relative;
+     top: 25px;
+     left: 20px;
+     width: 3px;
+     height: 120px;
+     background: #b8b4b4;
+     
+}
+blockquote
+{
+     float: left;
+}
+/*----------------------------------------------------------------------------- 
+06=SIDEBAR 
+-----------------------------------------------------------------------------*/
+#footer a
+{
+     text-decoration: none;
+     color: red;
+}
+#footer 
+{
+     padding-top: 5px;
+}
